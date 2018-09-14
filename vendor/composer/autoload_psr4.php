@@ -6,8 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Zusers\\' => array($vendorDir . '/zusers/src'),
+    'Zmailer\\' => array($vendorDir . '/zmailer/src'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Framework\\' => array($baseDir . '/libs/Framework'),
+    'Controller\\' => array($baseDir . '/src/Controller'),
 );

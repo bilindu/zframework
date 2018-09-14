@@ -12,6 +12,11 @@ class ComposerStaticInitd0f63f41661a2077440ca56d982aca96
     );
 
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zusers\\' => 7,
+            'Zmailer\\' => 8,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -25,9 +30,21 @@ class ComposerStaticInitd0f63f41661a2077440ca56d982aca96
         array (
             'Framework\\' => 10,
         ),
+        'C' => 
+        array (
+            'Controller\\' => 11,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zusers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zusers/src',
+        ),
+        'Zmailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zmailer/src',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -43,6 +60,10 @@ class ComposerStaticInitd0f63f41661a2077440ca56d982aca96
         'Framework\\' => 
         array (
             0 => __DIR__ . '/../..' . '/libs/Framework',
+        ),
+        'Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Controller',
         ),
     );
 
