@@ -21,6 +21,10 @@ class ComposerStaticInitd0f63f41661a2077440ca56d982aca96
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
         ),
+        'F' => 
+        array (
+            'Framework\\' => 10,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -35,6 +39,10 @@ class ComposerStaticInitd0f63f41661a2077440ca56d982aca96
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Framework\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/libs/Framework',
         ),
     );
 
